@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1096154412350",
+    "firebase_url": "https://gauth-sys.firebaseio.com",
+    "project_id": "gauth-sys",
+    "storage_bucket": "gauth-sys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096154412350:android:ce06d1cc5f4d2f668ca86f",
+        "android_client_info": {
+          "package_name": "com.example.gauth_sys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096154412350-bfvqva2tpmfa7q2ksnhe6ggoufo2l9n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTtS44_gQueMMh9Jqei0CWgCDDXY8Pppo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096154412350-bfvqva2tpmfa7q2ksnhe6ggoufo2l9n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

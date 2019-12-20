@@ -7,12 +7,125 @@
     tools:context=".InsertNewActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/band_idtxt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="633dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="141dp" />
+        android:hapticFeedbackEnabled="true"
+        android:hint="Enter Band ID"
+        android:inputType="number"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        tools:visibility="visible" />
+
+    <Switch
+        android:id="@+id/isEmployee_switch"
+        android:layout_width="117dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="39dp"
+        android:checked="true"
+        android:hapticFeedbackEnabled="true"
+        android:text="Employee"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/name_txt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/band_idtxt1"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/name_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="507dp"
+        android:ems="10"
+        android:hapticFeedbackEnabled="true"
+        android:hint="Enter Name"
+        android:inputType="number"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/emp_idtxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="416dp"
+        android:ems="10"
+        android:hint="Enter Employee ID"
+        android:inputType="number"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/emp_mobtxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="324dp"
+        android:ems="10"
+        android:hint="Enter Contact Number"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/guest_notxt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="244dp"
+        android:ems="10"
+        android:hint="No. of Guests"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="177dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
